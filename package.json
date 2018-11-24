@@ -1,0 +1,14 @@
+{
+  "name": "mongodb-with-node-and-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "helmet": "^3.15.0",
+    "redis": "^2.8.0"
+  }
+}
