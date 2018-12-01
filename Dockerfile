@@ -19,4 +19,4 @@ RUN yarn install
 COPY ./ ./
 
 # default command
-CMD yarn run start
+CMD yarn run start-dev
