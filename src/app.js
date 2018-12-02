@@ -12,7 +12,6 @@ if (process.env.NODE_ENV !== "test") {
   mongoose.connect("mongodb://localhost/muber", { useNewUrlParser: true })
 }
 
-
 // middleware
 app.use(helmet())
 app.use(express.static("public"))
